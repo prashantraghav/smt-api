@@ -39,6 +39,6 @@ class KasesController < ApplicationController
     end
 
     def kase_params
-      params.require(:kase).permit(:no, :name, :year)
+      params.require(:kase).permit(:no, :name, :years)
     end
 end

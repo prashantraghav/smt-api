@@ -4,7 +4,7 @@ class Kase
 
   field :no, type: String
   field :name, type: String
-  field :year, type: String
+  field :years, type: String
 
   has_many :supreme_court_cases, foreign_key: 'kase_id', class_name: 'Courts::Supreme::CaseTitle::Search'
 
